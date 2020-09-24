@@ -1,0 +1,166 @@
+/* html {
+  background: rgb(24, 24, 24);
+} */
+body {
+  background: rgb(24, 24, 24);
+  min-width: 54em;
+}
+
+.mainPage {
+  position: relative;
+}
+
+/* SearchUser */
+.searchMain {
+  position: relative;
+  display: flex;
+  top: 4em;
+  height: 2em;
+}
+
+.searchMain_input {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  left: 25%;
+  border: none;
+  padding: 2px;
+  background: linear-gradient(0deg, rgb(18, 18, 18), rgb(18, 18, 18)),
+    linear-gradient(0deg, rgb(50, 49, 50), rgb(50, 49, 50));
+  background-clip: content-box, padding-box;
+  text-indent: 10px;
+  color: white;
+  outline: none;
+}
+
+.searchMain_alongButton {
+  position: relative;
+  height: 100%;
+  width: 5%;
+  min-width: 4.5em;
+  left: 25%;
+  border: none;
+  color: rgb(170, 170, 170);
+  background: rgb(50, 49, 50);
+}
+
+.searchMain_RandomButton {
+  position: relative;
+  height: 100%;
+  width: 5%;
+  min-width: 4.5em;
+  left: 25%;
+  border: none;
+  color: rgb(170, 170, 170);
+  background: rgb(50, 49, 50);
+}
+
+.searchMain_alongButton:focus,
+.searchMain_RandomButton:focus {
+  outline: none;
+}
+
+.searchMain_alongButton:hover,
+.searchMain_RandomButton:hover {
+  opacity: 0.9;
+  color: white;
+  transition: 0.5s;
+}
+
+/* RoomList */
+.renderListMain {
+  position: relative;
+  top: 4em;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  margin: 2em;
+}
+
+.renderListMain_content {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 81.5em; */
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.renderListMain_notice {
+  position: relative;
+  top: 4em;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.isReady_loading {
+  position: relative;
+  top: 1em;
+  font-size: 2em;
+}
+
+.renderListMain_entry {
+  position: relative;
+  display: inline-block;
+  margin: 2.5%;
+  width: 20%;
+  min-width: 9.4em;
+}
+
+.renderListMain_entry-thumbnails {
+  position: relative;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 75%;
+}
+
+.renderListMain_entry-thumbnails-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.renderListMain_entry-content {
+  position: relative;
+  margin-top: 0.5em;
+}
+
+.renderListMain_entry-title {
+  position: relative;
+  width: 75%;
+  font-size: 1.3em;
+  color: rgb(255, 255, 255);
+  margin-top: 0.2em;
+  cursor: pointer;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2em;
+  max-height: 2.4em;
+}
+
+.renderListMain_entry-liked {
+  position: absolute;
+  display: inline-block;
+  bottom: 15%;
+  font-size: 1.1em;
+  color: rgb(255, 255, 255);
+  margin-top: 0.1em;
+  top: 0;
+  right: 0%;
+}
+
+.renderListMain_entry-nickname {
+  position: relative;
+  font-size: 1.1em;
+  color: rgb(170, 170, 170);
+  margin-top: 0.2em;
+}

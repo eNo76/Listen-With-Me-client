@@ -1,0 +1,92 @@
+/* 네비게이션 전체 */
+.navigation {
+  display: table-cell;
+  width: 100vw;
+  height: 10vh;
+  vertical-align: middle;
+  text-align: center;
+  background: rgb(32, 32, 32);
+}
+
+/* 로고 */
+.navigation_inner .logo {
+  margin: 0 0 0 0.5rem;
+}
+
+.logo__inner {
+  text-align: center;
+  display: table;
+}
+
+.logo__inner span {
+  display: table-cell;
+  vertical-align: middle;
+  cursor: pointer;
+  color: rgb(170, 170, 170);
+  font-size: 1.5rem;
+  padding-top: 0.3rem;
+}
+.logo__inner span:hover {
+  color: white;
+}
+
+/* title */
+.title__inner {
+  margin: 0 auto;
+  text-align: center;
+  display: table;
+}
+
+.title__inner .title__text {
+  font-size: 1.5rem;
+  font-weight: 300;
+  cursor: default;
+  color: #fff;
+}
+
+.title__text {
+  height: 100%;
+  vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 0.4rem;
+}
+
+/* user(로그인, 회원가입) */
+.navigation_inner .user {
+  margin-right: 0.5rem;
+}
+
+.user .user__button {
+  border: 0.01rem solid rgb(170, 170, 170);
+  padding: 0.5rem;
+  border-radius: 4px;
+  background: none;
+  color: rgb(170, 170, 170);
+}
+
+.user__signup,
+.user__mypage {
+  margin-left: 0.5rem;
+}
+
+.user .user__button:hover {
+  color: #fff;
+  border: 0.01rem solid #fff;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.user .user__button:focus {
+  outline: 0;
+}
+
+.user .user__button:active {
+  color: white;
+}
+
+.user__is-loading {
+  color: white;
+  margin-top: 0.3rem;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,43 @@
+.profile-picture {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  margin: 0 auto;
+}
+
+.profile-picture img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 0.01rem solid rgb(170, 170, 170);
+}
+
+.profile-picture__content--null {
+  border: 0.1rem solid rgb(170, 170, 170);
+}
+
+
+.profile-picture__filebox label {
+  position: absolute;
+  background: #fff;
+  border: 0.01rem solid rgb(170, 170, 170);
+  border-radius: 50%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.profile-picture__filebox label:hover {
+  background: #404040;
+  color: white;
+  transition: 0.2s;
+}
+
+.profile-picture__filebox label:active {
+  background: #212121;
+  color: white;
+  transition: 0.2s;
+}
+

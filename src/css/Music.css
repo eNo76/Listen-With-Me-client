@@ -1,0 +1,229 @@
+.musicPage {
+  margin: 2em;
+}
+
+/* recent list, liked list */
+.recentList,
+.likedList,
+.recentUser {
+  position: relative;
+  margin: 5em;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+}
+
+.recentList_content,
+.likedList_content,
+.recentUser_content {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.recentList_title,
+.likedList_title,
+.recentUser_title {
+  font-size: 2em;
+  display: inline-block;
+  margin-bottom: 1.5em;
+  color: rgb(255, 255, 255);
+}
+
+.recentList_removeRecentListButton,
+.recentUser_removeRecentUserButton {
+  position: relative;
+  left: 10px;
+  top: -5px;
+  border: 0;
+  outline: none;
+  background: rgba(255, 255, 255, 0);
+  color: rgb(51, 51, 51);
+}
+
+.recentAndLikedEntry,
+.recentUserEntry {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.recentAndLikedEntry::-webkit-scrollbar,
+.recentUserEntry::-webkit-scrollbar {
+  display: none;
+}
+
+.recentAndLikedNotice,
+.recentUserNotice {
+  position: relative;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 3em;
+}
+
+.musicLikedList_loading {
+  position: relative;
+  font-size: 1.2em;
+}
+
+.recentAndLikedEntry_content,
+.recentUserEntry_content {
+  position: relative;
+  margin: 0 2.5% 2.5% 2.5%;
+  width: 20%;
+  min-width: 8em;
+}
+
+.recentAndLikedEntry_content_thumbnail {
+  position: relative;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 75%;
+}
+
+.recentAndLikedEntry_content_thumbnail-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.recentAndLikedEntry_content_section {
+  position: relative;
+  margin-top: 0.5em;
+}
+
+.recentAndLikedEntry_content_title {
+  position: relative;
+  font-size: 1.2em;
+  width: 70%;
+  margin-top: 0.2em;
+  color: rgb(255, 255, 255);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2em;
+  max-height: 2.4em;
+}
+
+.recentAndLikedEntry_content_likeAmount {
+  position: absolute;
+  font-size: 1em;
+  top: 0%;
+  right: 0%;
+  color: rgb(255, 255, 255);
+}
+
+.recentList_viewButton-section,
+.likedList_viewButton-section,
+.recentUser_viewButton_section {
+  position: relative;
+  width: 20%;
+  height: 0;
+  min-width: 8em;
+  min-height: 6em;
+  overflow: hidden;
+  padding-bottom: 15%;
+  margin: 0 2.5% 0 2.5%;
+}
+
+.recentList_viewButton,
+.likedList_viewButton,
+.recentUser_viewButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: rgb(50, 49, 50);
+}
+
+.viewIcon {
+  position: relative;
+  font-size: 3em;
+}
+
+.userViewIcon {
+  position: relative;
+  font-size: 2em;
+}
+
+/* recent user */
+.recentUserEntry_section {
+  position: relative;
+  width: 20%;
+  height: 0;
+  min-width: 8em;
+  min-height: 3.2em;
+  overflow: hidden;
+  padding-bottom: 8%;
+  margin: 0 2.5% 2.5% 2.5%;
+}
+
+.recentUserEntry_content {
+  position: absolute;
+  top: 0;
+  left: -2.5%;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  background: rgb(97, 96, 97);
+}
+
+.recentUserEntry_profileImg {
+  position: absolute;
+  display: inline-block;
+  top: 9%;
+  left: 10%;
+  width: 32%;
+  border-radius: 50%;
+}
+
+.recentUserEntry_nickname {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  width: 38%;
+  transform: translate(0%, -50%);
+  color: rgb(255, 255, 255);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2em;
+  max-height: 2.4em;
+}
+
+.recentUser_viewButton {
+  height: 53.3%;
+}
+
+.recentList_removeRecentListButton:hover,
+.recentUser_removeRecentUserButton:hover,
+.recentList_viewButton:hover,
+.likedList_viewButton:hover,
+.recentUser_viewButton:hover {
+  opacity: 0.9;
+  color: gray;
+  transition: 0.5s;
+}
+
+.recentList_removeRecentListButton:focus,
+.recentUser_removeRecentUserButton:focus,
+.recentList_viewButton:focus,
+.likedList_viewButton:focus,
+.recentUser_viewButton:focus {
+  outline: none;
+}

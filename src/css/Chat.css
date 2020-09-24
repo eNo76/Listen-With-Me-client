@@ -1,0 +1,113 @@
+/* Chat */
+.chat {
+  margin-top: 0.5rem;
+}
+
+.chat__inner {
+  width: 31vw;
+}
+.chat__list {
+  height: 70vh;
+  width: 30vw;
+  margin-bottom: 0.5rem;
+  border: 0.01rem solid rgb(170, 170, 170);
+  padding: 0 1rem;
+  color: white;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+
+.chat__content {
+  margin: 1rem 0;
+}
+
+.chat__content .chat__sender {
+  margin-bottom: 0.3rem;
+  text-underline-position: below;
+  text-decoration: underline;
+}
+
+.chat__content .chat__time {
+  font-size: 0.5rem;
+  color: rgb(170, 170, 170);
+}
+
+.chat__bot {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 0.01rem solid rgb(170, 170, 170);
+  color: rgb(170, 170, 170);
+}
+
+.chat__me .chat__text {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.chat__other .chat__text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.chat__message {
+  word-break: break-all;
+  display: inline-block;
+}
+
+.chat__other .chat__time {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+.chat__me .chat__time {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.chat__me {
+  text-align: right;
+}
+
+.chat__input {
+  width: 30vw;
+  height: 1.9rem;
+  margin-top: 0.5rem;
+  padding: 0 0.5rem;
+  background-color: rgb(24, 24, 24);
+  border: none;
+  border-bottom: 1px solid rgb(170, 170, 170);
+  color: white;
+}
+.chat__input:focus {
+  outline: 0;
+}
+/* 
+.chat__send-button {
+  width: 20%;
+  margin-left: 1rem;
+  height: 1.9rem;
+  background: none;
+  border-radius: 5px;
+  border: 0.1rem solid rgb(170, 170, 170);
+  color: rgb(170, 170, 170);
+}
+
+.chat__send-button:hover {
+  border: 0.1rem solid white;
+  color: white;
+  transition: 0.3s;
+}
+
+.chat__send-button:active {
+  border: 0.1rem solid white;
+  color: white;
+}
+
+.chat__send-button:focus {
+  outline: 0;
+} */
