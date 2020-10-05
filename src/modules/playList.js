@@ -9,7 +9,7 @@ const initialState = {
   searchInfo: {
     key: process.env.REACT_APP_YOUTUBE_API_KEY,
     query: '',
-    max: 3,
+    max: 5,
   },
 };
 

@@ -1,63 +1,5 @@
 # ʟɪꜱᴛᴇɴ ᴡɪᴛʜ ᴍᴇ (Qᴜᴀʀᴛᴇᴛᴛᴇ)
 
-## 배포 주소
-
-http://listen-with-me.s3-website.ap-northeast-2.amazonaws.com/
-
-## 팀원 소개
-
-| <img src="https://avatars1.githubusercontent.com/u/64449323?s=460&v=4" width="150" height="150"> | <img src="https://avatars1.githubusercontent.com/u/42943992?s=460&u=5f5585b58f81a96a7bfef29b1a28be02708cdb8f&v=4" width="150" height="150"> | <img src="https://avatars2.githubusercontent.com/u/6958819?s=460&u=3f6f5d3c835fc9ed03d169180138537621deddf2&v=4" width="150" height="150"> | <img src="https://avatars0.githubusercontent.com/u/63284310?s=460&v=4" width="150" height="150"> |
-| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-| 김정준 ([@ᴛᴡᴏ-ᴊᴀʏ](http://github.com/Two-Jay))                                                   | 이상아 ([@ꜱɴᴀᴀɢ](http://github.com/snaag))                                                                                                  | 이원희 ([@ᴅᴏᴋᴅᴏ2005](http://github.com/dokdo2005))                                                                                         | 정인호 ([@ᴇɴᴏ76](http://github.com/eNo76))                                                       |
-| `음악이 좋아요`                                                                                  | `음악이 좋아요`                                                                                                                             | `아이디어가 좋아요`<br/> `음악이 좋아요`                                                                                                   | `내가 쓸거에요`<br/>`아이디어가 좋아요`                                                          |
-| `BE`                                                                                             | `FE`                                                                                                                                        | `BE` [, `FE`]                                                                                                                              | `FE`                                                                                             |
-
-## 기술 스택
-
-### 프론트엔드
-
-![dotenv](https://img.shields.io/badge/dotenv-^8.2.0-red?style=flat-square)
-![react](https://img.shields.io/badge/react-^16.13.1-red?style=flat-square)
-![react--dom](https://img.shields.io/badge/react--dom-^16.13.1-red?style=flat-square)
-
-![axios](https://img.shields.io/badge/axios-^0.20.0-orange?style=flat-square) ![socket.io--client](https://img.shields.io/badge/socket.io--client-^2.3.0-orange?style=flat-square)
-
-![react--router-dom](https://img.shields.io/badge/react--router--dom-^5.2.0-yellow?style=flat-square)
-![react--redux](https://img.shields.io/badge/react--redux-^7.2.1-yellow?style=flat-square)
-![redux](https://img.shields.io/badge/redux-^4.0.5-yellow?style=flat-square)
-![redux--actions](https://img.shields.io/badge/redux--actions-^2.6.5-yellow?style=flat-square)
-![redux--saga](https://img.shields.io/badge/redux--saga-^1.1.3-yellow?style=flat-square)
-![redux--thunk](https://img.shields.io/badge/redux--thunk-^2.3.0-yellow?style=flat-square)
-
-![react--google-login](https://img.shields.io/badge/react--google--login-^5.1.21-green?style=flat-square)
-![react--player](https://img.shields.io/badge/react--player-^2.6.1-green?style=flat-square)
-
-![@fortawesome/fontawesome--svg-core](https://img.shields.io/badge/@fortawesome/fontawesome--svg--core-^1.2.30-blue?style=flat-square)  ![@fortawesome/free--brands-svg-icons](https://img.shields.io/badge/@fortawesome/free--brands--svg--icons-^5.14.0-blue?style=flat-square) ![@fortawesome/free--regular-svg-icons](https://img.shields.io/badge/@fortawesome/free--regular--svg--icons-^5.14.0-blue?style=flat-square) ![@fortawesome/free--solid-svg-icons](https://img.shields.io/badge/@fortawesome/free--solid--svg--icons-^5.14.0-blue?style=flat-square) ![@fortawesome/react--fontawesome](https://img.shields.io/badge/@fortawesome/react--fontawesome-^0.1.11-blue?style=flat-square) ![bootstrap](https://img.shields.io/badge/bootstrap-^4.5.2-blue?style=flat-square) ![react--bootstrap](https://img.shields.io/badge/react--bootstrap-^1.3.0-blue?style=flat-square)
-
-### 백엔드
-
-![express](https://img.shields.io/badge/express-^4.17.1-red?style=flat-square) 
-![sequelize](https://img.shields.io/badge/sequelize-^6.3.4-red?style=flat-square) 
-![sequelize--cli](https://img.shields.io/badge/sequelize--cli-^6.2.0-red?style=flat-square) 
-![mysql2](https://img.shields.io/badge/mysql2-^2.1.0-red?style=flat-square)
-![socket.io](https://img.shields.io/badge/socket.io-^2.3.0-orange?style=flat-square)
-![dayjs](https://img.shields.io/badge/dayjs-^1.8.36-orange?style=flat-square)
-![body--parser](https://img.shields.io/badge/body--parser-^1.19.0-yellow?style=flat-square) 
-![cookie--parser](https://img.shields.io/badge/cookie--parser-^1.4.5-yellow?style=flat-square)  
-![cors](https://img.shields.io/badge/cors-^2.8.5-yellow?style=flat-square)
-![nodemon](https://img.shields.io/badge/nodemon-^2.0.4-yellow?style=flat-square) 
-![dotenv](https://img.shields.io/badge/dotenv-^8.2.0-yellow?style=flat-square)
-
-![jsonwebtoken](https://img.shields.io/badge/jsonwebtoken-^8.5.1-brightgreen?style=flat-square) 
-![aws--sdk](https://img.shields.io/badge/aws--sdk-^2.743.0-brightgreen?style=flat-square) 
-![multer](https://img.shields.io/badge/multer-^1.4.2-brightgreen?style=flat-square) 
-![multer--s3](https://img.shields.io/badge/multer--s3-^2.9.0-brightgreen?style=flat-square)
-![path](https://img.shields.io/badge/path-^0.12.7-brightgreen?style=flat-square)
-![google--auth-library](https://img.shields.io/badge/google--auth--library-^6.0.6-blue?style=flat-square)
-![cookie--session](https://img.shields.io/badge/cookie--session-^1.4.0-blue?style=flat-square)
-![express--session](https://img.shields.io/badge/express--session-^1.17.1-blue?style=flat-square)
-![passport](https://img.shields.io/badge/passport-^0.4.1-blue?style=flat-square)
-
 ## 프로젝트 소개
 
 **친구와 음악을 똑같이 들을 수 있다면 어떨까?** 에서 출발한 서비스 입니다. <br/>
@@ -136,3 +78,11 @@ http://listen-with-me.s3-website.ap-northeast-2.amazonaws.com/
 - 최근 들은 리스트, 최근 좋아요 한 리스트 보기
 
   ![기록--gif](https://user-images.githubusercontent.com/42943992/93745049-d1b13180-fc2d-11ea-9601-a336c237061a.gif)
+
+## 팀원 소개
+
+| <img src="https://avatars1.githubusercontent.com/u/64449323?s=460&v=4" width="150" height="150"> | <img src="https://avatars1.githubusercontent.com/u/42943992?s=460&u=5f5585b58f81a96a7bfef29b1a28be02708cdb8f&v=4" width="150" height="150"> | <img src="https://avatars2.githubusercontent.com/u/6958819?s=460&u=3f6f5d3c835fc9ed03d169180138537621deddf2&v=4" width="150" height="150"> | <img src="https://avatars0.githubusercontent.com/u/63284310?s=460&v=4" width="150" height="150"> |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| 김정준 ([@ᴛᴡᴏ-ᴊᴀʏ](http://github.com/Two-Jay))                                                   | 이상아 ([@ꜱɴᴀᴀɢ](http://github.com/snaag))                                                                                                  | 이원희 ([@ᴅᴏᴋᴅᴏ2005](http://github.com/dokdo2005))                                                                                         | 정인호 ([@ᴇɴᴏ76](http://github.com/eNo76))                                                       |
+| `음악이 좋아요`                                                                                  | `음악이 좋아요`                                                                                                                             | `아이디어가 좋아요`<br/> `음악이 좋아요`                                                                                                   | `내가 쓸거에요`<br/>`아이디어가 좋아요`                                                          |
+| `BE`                                                                                             | `FE`                                                                                                                                        | `BE` [, `FE`]                                                                                                                              | `FE`                                                                                             |
