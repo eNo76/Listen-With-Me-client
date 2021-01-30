@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-  Link,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect, Link } from 'react-router-dom';
 
 import NavigationContainer from './components/navigation/containers/NavigationContainer';
 import MainPage from './components/pages/main/containers/MainPage';
@@ -45,21 +39,12 @@ class App extends Component {
         <>
           <NavigationContainer />
         </>
-        {/* <>
-          <Link to="/">MainPage</Link>
-          <Link to="/listen">ListenPage</Link>
-          <Link to="/music">MusicPage</Link>
-          <Link to="/playlist">PlayListPage</Link>
-          <Link to="/profile">ProfilePage</Link>
-        </> */}
         {isReady && (
           <Switch>
             <Route
               exact
               path="/listen"
-              render={() =>
-                isSignIn ? <ListenPageContainer /> : <Redirect to="/" />
-              }
+              render={() => (isSignIn ? <ListenPageContainer /> : <Redirect to="/" />)}
             />
             <Route
               exact
